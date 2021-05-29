@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(232, 255, 218, 1);
+}
+
+.headerMenu {
+    background-image: url(./images/header-backgroung.png);
+    height: 56px;
+    border-bottom: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+}
+
+#wrapper {
+    background-image: url(./images/header-backgroung.png);
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.logo {
+    background-image: url(./images/header-backgroung.png);
+    width: 125px;
+}
+
+.logo img {
+    background-image: url(./images/header-backgroung.png);
+    width: 150px;
+    height: 38px;
+    margin-left: -300px;
+}
+
+.searchBox {
+    background-image: url(./images/header-backgroung.png);
+    position: absolute;
+    top: 13px;
+    margin-left: 135px;
+    /*border-radius: 10px;*/
+}
+
+#search input[type="text"] {
+    background: url(./images/lightsearch.png) no-repeat 10px 6px rgb(206, 206, 206);
+    outline: none;
+    border: 0 none;
+    font: bold 12px 'Courier New', Courier, monospace;
+    width: 350px;
+    border-radius: 10px;
+    padding: 9px 15px 9px 35px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); 
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255l 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255l 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255l 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+#search input[type="text"]:focus {
+    background: url(./images/darksearch.png) no-repeat 10px 6px #fcfcfc;
+    color: #6a6f75;
+    width: 350px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255l 0.1), 0 1px 3px rgba(0, 0, 0, 0.9) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255l 0.1), 0 1px 3px rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255l 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+/*
+@media screen and (max-width: 1280px) {
+    .logo {
+        background-image: url(./images/header-backgroung.png);
+        position: fixed;
+        top: 10px;
+        left: 0px;
+        height: 10px;
+        padding-top: 10px;
+        margin-left: 4%;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .logo {
+        background-image: url(./images/header-backgroung.png);
+        position: fixed;
+        top: 10px;
+        left: 0px;
+        height: 10px;
+        padding-top: 10px;
+        margin-left: 6%;
+}
+} 
+*/
+@media screen and (max-width: 1280px) {
+#menu {
+    background-image: url(./images/header-backgroung.png);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 37px;
+    padding-top: 19px;
+    margin-right: 4%;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    #menu {
+        background-image: url(./images/header-backgroung.png);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 37px;
+        padding-top: 19px;
+        margin-right: 6%;
+}
+}
+
+@media screen and (min-width: 400px) {
+    #menu {
+        background-image: url(./images/header-backgroung.png);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 37px;
+        padding-top: 19px;
+        margin-right: 10%;
+}
+}
+
+
+@media screen and (min-width: 1920px) {
+    #menu {
+        background-image: url(./images/header-backgroung.png);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 37px;
+        padding-top: 19px;
+        margin-right: 10%;
+}
+}
+
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    background-image: url(./images/header-backgroung.png);
+    padding-top: 22px;
+    padding-bottom: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu a:hover {
+    background-image: url(./images/mouse_hover_menu.png);
+   
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    color: #000000;
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    font-size: 15px;
+    padding: 5px;
+    width: 300px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    outline: none;
+}
+input[type="text"]:hover {
+    border: 1px solid #69af6d;
+}

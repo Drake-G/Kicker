@@ -26,13 +26,11 @@
                 </div>
             </div>
     </header>
-    <div style="width: 800px; margin: 0px auto 0px auto;">
+    <div class="center">
     <table>
         <tr>
             <td width=60% valign="top">
-                <h2>Coming fall of 2021! A new social site dedicated to living life to the fullest
-                    before we kick the bucket.
-                </h2>
+                <h2>Join Kicker Today!</h2>
             </td>
             <td width=40% valign="top">
                 <h2>Sign Up Below ...</h2>
